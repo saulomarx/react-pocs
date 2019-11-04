@@ -19,7 +19,7 @@ import '../../../node_modules/react-vis/dist/style.css';
 
 const PI = 3.14;
 
-export default class Content extends React.Component {
+export default class ReactVis extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -174,7 +174,6 @@ export default class Content extends React.Component {
             <HorizontalGridLines />
             <XAxis />
             <YAxis />
-
             <Hint value={'batata'}>
               <div style={{ background: 'black' }}>
                 <h3>Value of hint</h3>

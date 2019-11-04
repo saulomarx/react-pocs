@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
-import Content from './content';
+import ReactVis from './reactVis';
 
 const { REACT_APP_API_URL } = process.env;
 const Styles = styled.div``;
@@ -24,7 +24,7 @@ class Dictionary extends Component {
   render() {
     return (
       <Styles>
-        <Content />
+        <ReactVis />
       </Styles>
     );
   }
