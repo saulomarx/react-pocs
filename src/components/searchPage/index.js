@@ -22,7 +22,6 @@ class Dictionary extends Component {
     this.setState({ terms });
   }
   render() {
-    const { selectedTerm, selected } = this.state;
     return (
       <Styles>
         <Content />
