@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
 import ReactVis from './reactVis';
+import Nivo from './nivo';
 
 const { REACT_APP_API_URL } = process.env;
 const Styles = styled.div``;
@@ -24,6 +25,10 @@ class Dictionary extends Component {
   render() {
     return (
       <Styles>
+        Nivo
+        <Nivo />
+        ---------------------------------------------------------------------------------------------------------
+        Vis
         <ReactVis />
       </Styles>
     );
